@@ -1,2 +1,2 @@
 # mis-pelis
-ejercicio-evaluado: Web-movil-first
+ejercicio-evaluado: Web-mobil-first
