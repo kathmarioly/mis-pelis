@@ -1,0 +1,45 @@
+*{
+	padding:0;
+	margin:0;
+
+}
+body{
+	background-color:#C14748;
+}
+.inicio{
+	h1{
+		text-align: center;
+		color:white;
+		font-size: 37px;
+	}
+	button{
+		text-align:center;
+		padding: 20px 0;
+		margin-top:15px;
+	}
+	.btn, .btn-large {
+		color: #C14748;;
+		background-color: white;
+		letter-spacing: .5px;
+		-webkit-transition: .2s ease-out;
+		transition: .2s ease-out;
+		cursor: pointer;
+	}
+	.btn, .btn-flat, .btn-large {
+		border: none;
+		border-radius: 2px;
+		display: inline-block;
+		height: 33px;
+		line-height: 36px;
+		padding: 0px 2rem;
+		text-transform: uppercase;
+		vertical-align: middle;
+		width: 400px;
+		max-width:100%;
+
+	}
+	p{
+		color:white;
+		margin-top:10px;
+	}
+}
