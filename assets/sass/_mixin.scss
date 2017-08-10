@@ -18,6 +18,7 @@ body{
 		text-align:center;
 		padding: 20px 0;
 		margin-top:10px;
+		margin-bottom:10px;
 	}
 	.btn, .btn-large {
 		color: #C14748;;
@@ -40,8 +41,13 @@ body{
 		max-width:100%;
 
 	}
-	p{
-		color:white;
-		margin-top:10px;
+	a {
+		background-color: transparent;
+		color: #f6fafb;
+		padding:15px;
 	}
+	.btn, .btn-large, a {
+		
+	}
+
 }
