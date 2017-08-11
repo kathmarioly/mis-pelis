@@ -1,12 +1,13 @@
 *{
 	padding:0;
 	margin:0;
+	
 
-}
-body{
-	background-color:#C14748;
+	
 }
 .inicio{
+	background-color:#C14748;
+	height:100vh;
 	h1{
 		text-align: center;
 		color:white;
@@ -32,7 +33,7 @@ body{
 
 	}
 	.btn, .btn-large {
-		color: #C14748;;
+		color: #C14748;
 		background-color: white;
 		letter-spacing: .5px;
 		-webkit-transition: .2s ease-out;
@@ -65,7 +66,50 @@ body{
 }
 
 .inicio-account{
-	input{
+
+	background-color:#E1E1E1;;
+	height:100vh;
+	
+	h6 {
+		font-size: 1rem;
+		margin: 1.5rem 0 .4rem;
+	}
+
+	nav .nav-wrapper {
+		position: relative;
+		height: 100vh;
+		background-color: #2F2F34;
+		padding:20px;
+	}
+	
+	.row .col.l1, .row .col.l10, .row .col.l11, .row .col.l12, .row .col.l2, .row .col.l3, .row .col.l4, .row .col.l5, .row .col.l7, .row .col.l8, .row .col.l9 {
+		margin-left: auto;
+		left: auto;
+		right: auto;
+		margin-top: 50px;
+	}
+	input[type=text], select {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		background-color: white;
+		padding-top:-50;
+	}
+
+	label{
 		text-align:left;
+		color: #C14748;
+		font-size:17px;
+	}
+	button{
+		background-color: #2F2F34;
+		color:white;
+		text-align:center;
 	}
 }
+
+
