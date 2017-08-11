@@ -134,8 +134,21 @@
 
 
 .profile{
-	img {
-		border: 2px solid;
-		border-radius: 25px;
+	span{
+		color:black;
+		font-weight: 600;
 	}
+	img {
+
+		border-radius: 50%;
+	}
+	.foto{
+		padding-top:10%;
+		padding-bottom:10%;
+	}
+}
+
+.favorite{
+	background-color:#C14748;
+	color:white;
 }
